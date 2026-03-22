@@ -9,8 +9,10 @@ Focus: Healthcare Business Intelligence & Clinical Risk Stratification
 This project involves a comprehensive exploratory data analysis (EDA) of a medical history database using MySQL and Python.
 The goal was to transform raw clinical data—spanning patients, admissions, and doctors—into actionable insights to improve hospital operations, patient safety, and strategic resource allocation.
 Key ObjectivesDatabase Architecture: Established secure remote RDBMS connections to ensure data accessibility and integrity.
-Relational Modeling: Performed multi-table joins and data aggregations to create a 360-degree view of patient care and provider performance.Clinical Risk Stratification: Developed SQL-driven models to identify high-risk cohorts, including obesity prevalence (BMI $\ge$ 30) and chronic disease indicators.
-Operational Optimization: Analyzed "Peak Day" trends and the "Payday Effect" to provide evidence-based recommendations for staffing and infrastructure planning.🛠️ Tech StackLanguage: SQL (MySQL), PythonLibraries: Pandas, SQLAlchemy, MySQL-ConnectorTools: MySQL Workbench, GitHub, Microsoft PowerPoint
+Relational Modeling: Performed multi-table joins and data aggregations to create a 360-degree view of patient care and provider performance.
+ Clinical Risk Stratification: Developed SQL-driven models to identify high-risk cohorts, including obesity prevalence (BMI $\ge$ 30) and chronic disease indicators.
+Operational Optimization: Analyzed "Peak Day" trends and the "Payday Effect" to provide evidence-based recommendations for staffing and infrastructure planning.
+ Tech StackLanguage: SQL (MySQL), PythonLibraries: Pandas, SQLAlchemy, MySQL-ConnectorTools: MySQL Workbench, GitHub, Microsoft PowerPoint
   High-Impact InsightsData Quality Governance: Identified and flagged physical measurement outliers (e.g., weight entry errors) to ensure clinical data reliability.
 Pediatric vs. Adult Care: Segmented weight distribution to guide the procurement of specialized bariatric and pediatric medical equipment.
 Clinical Audit: Verified alignment between complex diagnoses (e.g., Epilepsy) and specialist assignments to reduce operational and safety risks.
